@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 
 {% block content %}
-  <h3>Pages</h3>
+  <h3>Pages {{ query }} {{ queryLiteral }}</h3>
   <hr>
 {% if pages.length > 0 %}
   <ul>

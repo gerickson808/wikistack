@@ -1,5 +1,6 @@
 var express = require ( 'express' );
 var swig = require ('swig');
+require('./filters')(swig);
 var routes = require('./routes/');
 var app = express();
 
